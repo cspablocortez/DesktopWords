@@ -1,0 +1,11 @@
+<section class="feed">
+    <h2>Latest Posts</h2>
+    
+    {% for post in site.posts %}
+        <article class="feed_item">
+            <time>{{ post.date }}</time>
+            <small>{{ post.url}}</small>
+            <p><a href="{{ post.url }}">{{ post.title}}</p></p>
+        </article>
+    {% endfor %}
+</section>

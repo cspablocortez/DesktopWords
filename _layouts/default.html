@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="{{ '/assets/css/normalize.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  
+  <!-- HTML Meta Tags -->
+  
+  <title>{{ site.title }}</title>
+  
+  <meta name="description" content="{{ page.description }}">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="{{ site.url | append: page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:image" content="{{ page.image }}">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="{{ site.domain }}">
+  <meta property="twitter:url" content="{{ site.url }}">
+  <meta name="twitter:title" content="{{ site.title }} | {{ page.title}}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ page.image }}">
+
+  <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+  
+</head>
+
+<body>
+    {% include nav.html %}
+    
+<main>
+    {{ content }}
+</main>
+
+    {% include feed.html %} 
+    
+    {% include footer.html %}
+</body>
+
+</html>
