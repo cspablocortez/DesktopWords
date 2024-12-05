@@ -1,12 +1,25 @@
-<section class="feed">
-    <h2>Latest Posts</h2>
-    
+
+
+{% include profile.html %}
+
+<main class="feed">
     {% for post in site.posts %}
         <article class="feed__article">
-        <time class="feed__article__date">{{ post.date | date: "%Y-%m-%d" }}</time>
-        <h2 class="feed__article__title">
-        <a href="{{ post.url }}">{{ post.title}}</a>
-      </h2>
+        <hgroup class="feed__article__header">
+          <h1 class="feed__article__title"><a href="{{ post.url }}">{{ post.title}}</a></h1>
+          <time class="feed__article__date">{{ post.date | date: "%b %y" }}</time>
+        </hgroup>
+        <main class="feed__article__content">
+          {{ post.excerpt }}
+        </main>
+        <section class="feed__article__meta">
+          {% assign word_count = post.content | number_of_words %}
+          {% assign reading_time = word_count | divided_by: 200 %}
+         <div class="meta-item">
+          <img src="{{ '/assets/images/icons/hourglass.svg' | relative_url }}" alt="Description of the SVG">
+          <span>{{ reading_time | ceil }} min</span>
+         </div>
+        </section>      
       </article>
     {% endfor %}
-</section>
+</main>

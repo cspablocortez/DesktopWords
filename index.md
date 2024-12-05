@@ -1,14 +1,7 @@
 ---
 layout: default
 title: desktopwords
+theme_color: black
 ---
-
-> Desktop words are worth reading.
-
-What's desktopwords.com?
-
-It's a fun and easy way to blog. 
-
-
 
 {% include feed.html %}

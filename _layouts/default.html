@@ -1,60 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="{{ '/assets/css/normalize.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/highlight.css' | relative_url }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="{{ page.theme_color }}">
 
-  
-  <!-- HTML Meta Tags -->
-  
-  <title>{{ site.title }}</title>
-  
-  <!-- <meta name="description" content="{{ page.excerpt | escape }}"> -->
 
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="{{ site.url | append: page.url }}">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
-  <!-- <meta property="og:description" content="{{ page.excerpt | escape }}"> -->
-  <meta property="og:image" content="{{ page.image }}">
+    <link rel="icon" href="/assets/images/brand/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{ '/assets/css/modern-normalize.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/base.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/highlight.css' | relative_url }}">
 
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="{{ site.domain }}">
-  <meta property="twitter:url" content="{{ site.url }}">
-  <meta name="twitter:title" content="{{ site.title }} | {{ page.title}}">
-  <!-- <meta name="twitter:description" content="{{ page.excerpt | escape }}"> -->
-  <meta name="twitter:image" content="{{ page.image }}">
-
-  <!-- Meta Tags Generated via https://www.opengraph.xyz -->
-  
-</head>
-
-<body>
-    {% include nav.html %}
     
-<main class="main">
-  
-    <article class="post">
-      <header class="post__header">
-        <h1 class="post__title">{{ page.title }}</h1>
-        <div class="post__byline">
-          <p class="post__author">{{ page.author }}</p>
-          <time class="post__date">{{ page.date | date: "%Y-%m-%d" }}</time>
-        </div>
-      </header>
-      <main>
+    <!-- HTML Meta Tags -->
+    
+    <title>{{ site.title }}</title>
+    
+    <!-- <meta name="description" content="{{ page.excerpt | escape }}"> -->
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="{{ site.url | append: page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
+    <!-- <meta property="og:description" content="{{ page.excerpt | escape }}"> -->
+    <meta property="og:image" content="{{ page.image }}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="{{ site.domain }}">
+    <meta property="twitter:url" content="{{ site.url }}">
+    <meta name="twitter:title" content="{{ site.title }} | {{ page.title}}">
+    <!-- <meta name="twitter:description" content="{{ page.excerpt | escape }}"> -->
+    <meta name="twitter:image" content="{{ page.image }}">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    
+  </head>
+
+  <body class="column-layout">
+    
+      
+    <main class="main">
         {{ content }}
-      </main>
-    </article>
+    </main>
+      
     
-</main>
-    
-    {% include footer.html %}
-</body>
+  </body>
 
 </html>

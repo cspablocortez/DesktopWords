@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Welcome to Jekyll!"
 date:   2024-11-24 13:03:06 -0800
 author: Jekyll Team

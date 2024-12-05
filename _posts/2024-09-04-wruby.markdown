@@ -2,7 +2,7 @@
 title: A single-file static site generator
 date: 2024-09-04
 author: cspablocortez
-layout: default
+layout: post
 ---
 
 I read Giles Turnbull's thoughts on [gilest.org](https://gilest.org/indie-easy.html) about what independent web publishing in the style of the [Indieweb](https://indieweb.org) needs:

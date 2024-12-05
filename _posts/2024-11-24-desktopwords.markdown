@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Blogging Today
 author: cspablocortez
 date: 2024-11-24 20:26:08 -0800
