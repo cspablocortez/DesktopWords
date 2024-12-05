@@ -3,10 +3,10 @@
     
     {% for post in site.posts %}
         <article class="feed__article">
-            <time class="feed__article__date">{{ post.date | date: "%Y-%m-%d" }}</time>
-            <h2 class="feed__article__title">
-              <a href="{{ post.url }}">{{ post.title}}</a>
-            </h2>
-        </article>
+        <time class="feed__article__date">{{ post.date | date: "%Y-%m-%d" }}</time>
+        <h2 class="feed__article__title">
+        <a href="{{ post.url }}">{{ post.title}}</a>
+      </h2>
+      </article>
     {% endfor %}
 </section>

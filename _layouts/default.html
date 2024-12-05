@@ -38,8 +38,20 @@
     {% include nav.html %}
     
 <main class="main">
-    <h1>{{ page.title }}</h1>
-    {{ content }}
+  
+    <article class="post">
+      <header class="post__header">
+        <h1 class="post__title">{{ page.title }}</h1>
+        <div class="post__byline">
+          <p class="post__author">{{ page.author }}</p>
+          <time class="post__date">{{ page.date | date: "%Y-%m-%d" }}</time>
+        </div>
+      </header>
+      <main>
+        {{ content }}
+      </main>
+    </article>
+    
 </main>
     
     {% include footer.html %}
