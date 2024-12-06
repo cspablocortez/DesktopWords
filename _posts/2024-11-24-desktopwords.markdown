@@ -3,6 +3,7 @@ layout: post
 title: Blogging Today
 author: cspablocortez
 date: 2024-11-24 20:26:08 -0800
+tag: blogging
 ---
 
 I was going to call this post _Blogging in 2024_ to talk about

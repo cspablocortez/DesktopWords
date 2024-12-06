@@ -1,6 +1,7 @@
 ---
 layout: default
-title: desktopwords
+title: DesktopWords
+description: Test description.
 theme_color: black
 ---
 

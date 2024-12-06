@@ -38,6 +38,7 @@ body.column-layout {
   /* position: absolute; */
   /* top: 60px; */
   padding-inline: 0.5rem;
+  margin-block: 2rem;
 }
 
 .feed__article {
@@ -77,6 +78,8 @@ body.column-layout {
 
 .feed__article__meta {
   padding-block-start: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .meta-item {
@@ -173,11 +176,12 @@ body.column-layout {
   width: 60px;
   border-radius: 100%;
   border: 1px solid white;
+  margin-top: 1rem;
 }
 
 .profile-bio {
   color: lightgray;
-  max-width: 30ch;
+  max-width: 20ch;
 }
 
 .profile-menu {
@@ -187,6 +191,7 @@ body.column-layout {
   margin-block: 1.25rem;
   /* border-top: 2px solid var(--color-primary); */
   /* padding-block-start: 1rem; */
+  gap: 1rem;
 }
 
 .profile-menu a {
@@ -204,7 +209,6 @@ body.column-layout {
 }
 
 .profile-menu img {
-  /* color: white; */
   height: 1rem;
 }
 

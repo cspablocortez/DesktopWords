@@ -38,3 +38,7 @@ blockquote {
     padding-left: 1rem;
     margin-inline-start: 1rem;
 }
+
+.highlight {
+    overflow-x: auto;
+}
