@@ -3,6 +3,7 @@
 {% include profile.html %}
 
 <main class="feed">
+  {% if site.posts.size > 0 %}
     {% for post in site.posts %}
         <article class="feed__article">
         <hgroup class="feed__article__header">
@@ -31,4 +32,10 @@
         </section>      
       </article>
     {% endfor %}
+  {% else %}
+      <div class="empty-feed">
+        <img src="/assets/images/icons/news.svg" alt="RSS Feed">
+        <p>No posts yet. Come back soon!</p>
+      </div>
+  {% endif %}
 </main>

@@ -32,6 +32,25 @@ body.column-layout {
 
 /* Feed */
 
+.empty-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.empty-feed img {
+  height: 80px;
+}
+
+.empty-feed p {
+  color: gray; 
+  text-align: center; 
+  font-size: var(--fs--1); 
+  font-style: italic;
+}
+
 .feed {
   /* border: 1px solid red; */
   max-width: 600px;
@@ -157,6 +176,7 @@ body.column-layout {
   color: white;
   padding-block-end: 1rem;
   padding-inline: 1rem;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.85);
 }
 
 .profile hgroup {
@@ -313,5 +333,22 @@ code.language-plaintext {
 @media screen and (min-width: 600px) {
   .article__content {
     padding: 1rem;
+  }
+
+  .profile {
+    padding-inline: 4rem;
+  }
+
+  .profile-name {
+    font-size: var(--fs-2);
+  }
+
+  .profile-bio {
+    max-width: 35ch;
+    margin-block-end: 2.25rem;
+  }
+
+  .feed {
+    margin-inline: auto;
   }
 }
