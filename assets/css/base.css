@@ -336,7 +336,8 @@ code.language-plaintext {
   }
 
   .profile {
-    padding-inline: 4rem;
+    padding-block: 2rem;
+    padding-inline: 8rem;
   }
 
   .profile-name {
