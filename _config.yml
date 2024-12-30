@@ -1,7 +1,8 @@
 title: DesktopWords
+author: cspablocortez
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog about people and technology. Mainly drafts from the desktop folder on my computer.
+  A blog about people, writing, and technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: desktopwords
 url: "https://desktopwords.com" 
