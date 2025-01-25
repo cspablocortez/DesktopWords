@@ -35,10 +35,4 @@ DesktopWords.com is a blog about people, writing, and technology.
     </main>
 </details>
 
-<details>
-    <summary>Can I submit an article for publication?</summary>
-    <main style="padding: 1rem;">
-        <p>Absolutely! DesktopWords welcomes your submissions. If you're interested in publishing an article on the site, please send an email to contact@desktopwords.com.</p>
-    </main>
-</details>
 
