@@ -8,7 +8,11 @@ domain: desktopwords
 url: "https://desktopwords.com" 
 github_username:  
 
+theme: 
+remote_theme: cspablocortez/arrow-jekyll-theme
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.

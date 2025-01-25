@@ -1,0 +1,29 @@
+---
+layout: post
+title: Is It Worth It?
+---
+I keep seeing this question online, in various forms and communities, from internet forums to TikTok videos. A person will ask, "is it worth it to do X?"
+
+But what exactly are they asking, and how is anyone but themselves qualified to answer that? This question is usually raised when someone wants to know if the time spent on a given activity or project will produce what they consider a desirable outcome. Why would any stranger be able to answer that?
+
+I particularly dislike this question when it comes to learning something, because it's always about capital, whether it be social capital or financial gain.
+
+"Is it worth it to learn Ruby on Rails?"
+
+"Is it worth it to learn Spanish?"
+
+"Is it worth it to read Hemingway?"
+
+"Is it worth it to listen to The Beatles?"
+
+You don't need to ask permission! Knowledge is intrinsically valuable, learn things for their own sake!
+
+I'm aware that some people are asking these questions because it's comforting to ask others what their experience is regarding various activities. But why not ask instead about that?
+
+"What has been your experience using Ruby on Rails?"
+
+"How has learning Spanish changed your life?"
+
+"How did reading Hemingway make you feel?"
+
+"Why do you like The Beatles?"
